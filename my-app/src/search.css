@@ -4,6 +4,9 @@
   font-size: 2.2rem;
   text-shadow: -1px -1px 0 rgb(56, 55, 55), 1px -1px 0 rgb(83, 80, 80), -1px 1px 0 rgb(63, 58, 58), 2px 2px 0 rgb(71, 69, 69);
 }
+.nav-icon {
+  color: blue;
+}
 #engine-text{
   color: rgb(196, 140, 207);
   font-size: 2rem;
@@ -17,4 +20,20 @@ color: rgb(243, 9, 223);
 }
 #navi{
   font-size: 1.6rem;
+}
+#search-container {
+  width: 55rem;
+  margin-left: auto;
+    margin-right: auto;
+}
+#search-form {
+  width: 30rem;
+  margin-left: auto;
+    margin-right: auto;
+}
+#table-head{
+  font-size: 1.5rem;
+  text-align: center;
+  color: blue;
+  text-shadow: -1px -1px 0 rgb(136, 73, 112), 1px -1px 0 rgb(136, 73, 112), -1px 1px 0 rgb(136, 73, 112), 2px 2px 0 rgb(136, 73, 112);
 }

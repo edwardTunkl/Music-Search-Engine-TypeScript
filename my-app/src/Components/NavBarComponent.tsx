@@ -8,14 +8,16 @@ import {
   Button,
 } from "react-bootstrap";
 import "../search.css";
+import {IoIosFlash } from "react-icons/io";
+
 
 export default function NavBarComponent() {
   return (
     <div>
       <Navbar bg="info" expand="lg">
-        <Container className="px-4">
+        <Container id="search-container">
           <Navbar.Brand id="engine-name">
-            <span className="title">80ies</span> Search-Engine
+          <IoIosFlash className="nav-icon"/><span className="title">80ies</span><IoIosFlash className="nav-icon"/> Search-Engine
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
